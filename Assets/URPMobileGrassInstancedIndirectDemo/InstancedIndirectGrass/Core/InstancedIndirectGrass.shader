@@ -37,8 +37,9 @@
 
     SubShader
     {
-        Tags { "RenderType" = "Opaque" "RenderPipeline" = "UniversalRenderPipeline"}
-
+        // Removed "RenderPipeline" = "UniversalRenderPipeline", causes the shader to break in build
+        //Tags { "RenderType" = "Opaque" "RenderPipeline" = "UniversalRenderPipeline"}
+        Tags { "RenderType" = "Opaque" }
         Pass
         {
             Cull Back //use default culling because this shader is billboard 
