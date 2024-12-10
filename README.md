@@ -3,6 +3,8 @@
 Changes made: Made a few changes to make project useful for Unity 6 on `GrassBendingRTPrePass`.
 Copied changes from [Siviion](https://github.com/Siviion/UnityURP-MobileDrawMeshInstancedIndirectExample-Fixed)'s fork to fix shader issues. 
 
+[Latest test video on Samsung A35 5G ](https://youtu.be/SvIrRcs5VmU)
+
 ## Original Readme
 
 youtube runtime demo video: https://youtu.be/A7rav4tS88s  
